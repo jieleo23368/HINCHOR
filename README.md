@@ -33,6 +33,7 @@ IMDB(https://grouplens.org/datasets/movielens/100k/) is a movie review database.
 Following the command to run the codes(For all datasets the commands are same).
 ```
 python3 main.py --seed 1
+
 ```
 
 
