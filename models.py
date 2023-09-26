@@ -231,7 +231,6 @@ def get_d(subgraph_paths,node2type):
 
 
 class Decoder(nn.Module):
-    # hadamard,256,256
     def __init__(self,args, dec, dim_in,dim_z=8):
         super(Decoder, self).__init__()
         if dec=='concatenate':
