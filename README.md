@@ -3,13 +3,21 @@ Counterfactual Learning for Higher-Order Relation Prediction in Heterogeneous In
 
 ## Requirements
 -python==3.6.9  
+
 -torch==1.10.0  
+
 -torch_geometric==2.0.3  
+
 -networkx==2.5.1  
+
 -scipy==1.6.2  
+
 -numpy==1.19.4   
+
 -scikit_learn==0.24.2  
+
 -scikit_network==0.20.0  
+
 
 ## Datasets
 DBLP(https://github.com/cynricfu/MAGNN) is a computer science bibliography website. We extract a subset of DBLP which contains 14376 papers, 14475 authors, 20 conferences and 8920 terms. 
