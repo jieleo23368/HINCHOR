@@ -150,7 +150,7 @@ def get_CF(adj,adj_label,three_adj_f, node_embs, T_f,all_x, dist, thresh, n_work
                 same_type_b.append(node)
 
         while i < len(same_type_a) - 1 and j < len(same_type_b) - 1:
-            if simi_mat[a, same_type_a[i]] + simi_mat[b, same_type_b[j]] > 2 * thresh:
+            if simi_mat[a, same_type_a[i]] + simi_mat[b, same_type_b[j]] >2 * thresh:
                 if old_community == 1:
                     three_T_cf.append(list(node_pair))
                 three_adj_cf[tuple(node_pair)] = three_adj_f[tuple(node_pair)]
